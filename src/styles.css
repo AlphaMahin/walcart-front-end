@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+	font-family: "Rubik", sans-serif;
+}
+
+:root {
+	--theme-red: #e23e1d;
+	--theme-black: #252525;
+	--theme-yellow: #fedc19;
+	--theme-blue: #051d43;
+	--theme-white: #ffffff;
+	--theme-gray: #71737a;
+}
+
+input:focus {
+	outline: 0 !important;
+}
+
+.carret::after {
+	display: inline-block;
+	margin-left: 0.3em;
+	vertical-align: 0.12em;
+	content: "";
+	background: url("assets/images/carret.png") no-repeat;
+	width: 9px;
+	height: 5px;
+}
+
+ul {
+	padding: 0 !important;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 !important;
+}
+
+li {
+	list-style: none;
+}

@@ -1,0 +1,25 @@
+.top-header {
+	background: #f5f5f5;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.white-text {
+	color: #53555a !important;
+	font-size: 14px;
+	margin: 0 !important;
+}
+
+.toll-free {
+	color: #71737a !important;
+}
+
+.language::before {
+	display: inline-block;
+    margin-right: 0.4em;
+    vertical-align: 0em;
+	content: "";
+	background: url("/assets/images/language.png") no-repeat;
+	width: 16px;
+	height: 10px;
+}

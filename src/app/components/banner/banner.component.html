@@ -1,0 +1,28 @@
+<section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12 banner-left">
+                <ul>
+                    <li *ngFor="let category of categories">
+                        <span>{{ category }}</span>
+                        <span class="carret-right"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-9 col-md-12 banner-right position-relative">
+                <!-- style="position: absolute;left: 7em;top: 50%;transform: translateY(-50%);" -->
+                <div style="padding: 6rem;">
+                    <h6 style="color: var(--theme-red);text-transform: uppercase; letter-spacing: 2px;">Clothing</h6>
+                    <h1 style="color: var(--theme-black);text-transform: uppercase;margin-top: 0.2em !important;">UP to 20% OFF</h1>
+                    <h1 style="color: var(--theme-black);text-transform: uppercase;margin-bottom: 0.1em !important;">Speakers</h1>
+                    <b style="color: var(--theme-gray); font-size: 0.9em;">The Best Gadgets Collection 2021</b><br>
+                    <span
+                        style="color: var(--theme-black); text-decoration: line-through;font-size: 1em;font-weight: 600;">$430.00</span>
+                    <span
+                        style="margin-left: 0.4em;color: var(--theme-red);font-size: 1.5em;font-weight: 600;">$350.00</span><br>
+                    <button class="btn-buying">Start Buying</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

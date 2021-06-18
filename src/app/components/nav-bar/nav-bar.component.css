@@ -1,0 +1,72 @@
+.navbar-design {
+	background-color: var(--theme-yellow) !important;
+	height: 80px;
+}
+
+.offset-color {
+	background: var(--theme-blue);
+	width: 50%;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+.browse p {
+	color: var(--theme-white);
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.browse p::before {
+	display: inline-block;
+	margin-right: 1.3em;
+	vertical-align: 0em;
+	content: "";
+	background: url("../../../assets/images/line.png") no-repeat;
+	width: 15px;
+	height: 13px;
+}
+
+.browse {
+	padding: 1.75em 0;
+}
+
+.right {
+	background: var(--theme-blue);
+	padding: 1.75em 0;
+	z-index: 9999;
+}
+
+.right > nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.right > nav > ul {
+	display: flex;
+	padding-left: 2em !important;
+}
+
+.right > nav > ul > li {
+	padding: 0 1.3em;
+	text-transform: uppercase;
+	color: var(--theme-white);
+	font-size: 0.9rem;
+}
+
+li.carret::after {
+	display: inline-block;
+	margin-left: 0.555em;
+	vertical-align: 0.1em;
+	content: "";
+	border-top: 0.3em solid;
+	border-right: 0.3em solid transparent;
+	border-bottom: 0;
+	border-left: 0.3em solid transparent;
+}
+
+.right > nav > div {
+	background: url("../../../assets/images/nav-right.png") no-repeat;
+	width: 176px;
+}

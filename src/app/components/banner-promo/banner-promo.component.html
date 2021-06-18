@@ -1,0 +1,16 @@
+<section class="promo">
+    <div class="container">
+        <div class="row">
+            <div 
+                class="col-md-6 promo-container position-relative"
+                *ngFor="let promo of promotions">
+                <div style="position: absolute;left: 4em;top: 50%;transform: translateY(-50%);">
+                    <h2 style="color: var(--theme-black)">{{ promo.title }}</h2>
+                    <h2 style="color: var(--theme-yellow)" *ngIf="promo.subTitle">{{ promo.subTitle }}</h2>
+                    <p style="color: var(--theme-gray); font-size: 1em;font-weight: 500; margin-top: 1em !important;">{{ promo.desc }}</p>
+                    <button class="btn-shop-now">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
