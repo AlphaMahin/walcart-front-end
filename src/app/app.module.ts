@@ -8,6 +8,11 @@ import { TopHeaderComponent } from './components/top-header/top-header.component
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { BannerPromoComponent } from './components/banner-promo/banner-promo.component';
+import { TopCategoriesComponent } from './components/top-categories/top-categories.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { BrandsComponent } from './components/brands/brands.component';
+import { BestProductsComponent } from './components/best-products/best-products.component';
+import { LatestComponent } from './components/latest/latest.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { BannerPromoComponent } from './components/banner-promo/banner-promo.com
     TopHeaderComponent,
     NavBarComponent,
     BannerComponent,
-    BannerPromoComponent
+    BannerPromoComponent,
+    TopCategoriesComponent,
+    NewsletterComponent,
+    BrandsComponent,
+    BestProductsComponent,
+    LatestComponent
   ],
   imports: [
     BrowserModule

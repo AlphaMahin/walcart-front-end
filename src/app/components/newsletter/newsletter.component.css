@@ -1,0 +1,37 @@
+.newsletter {
+    background-color: var(--theme-yellow);
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.news-message h2::before {
+    background: url("../../../assets/images/send.png") no-repeat;
+    display: inline-block;
+    margin-right: 0.8em;
+    vertical-align: 0em;
+    content: "";
+    width: 70px;
+    height: 46px;
+}
+
+.news-message h2 {
+    color: var(--theme-white);
+    display: flex;
+    align-items: center;
+}
+
+.btn-blue {
+    background-color: var(--theme-blue) !important;
+    color: var(--theme-white);
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 !important;
+    padding: 1.2em 3em;
+    letter-spacing: 1px;
+}
+
+.news-email input {
+    padding: 0.945rem 1.75rem;
+    border-radius: 0 !important;
+    border: 0 !important;
+}

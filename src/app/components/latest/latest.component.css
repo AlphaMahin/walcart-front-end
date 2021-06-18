@@ -1,0 +1,46 @@
+.btn-add-cart {
+	background-color: #eeeeee !important;
+	color: var(--theme-black);
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 4px;
+	border: 0 !important;
+	font-size: 14px;
+	padding: 0.8em 1.8em;
+	letter-spacing: 1px;
+}
+
+.on-sale {
+	background-color: var(--theme-yellow) !important;
+	color: var(--theme-white);
+}
+
+.new {
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--theme-red);
+	margin-right: 0.5em;
+}
+
+.old {
+	color: var(--theme-black);
+}
+
+.latest-products {
+	height: 174.75px;
+}
+
+.latest-products > div {
+	border: 1px solid #ececec;
+	height: inherit;
+}
+
+.latest-products ul li {
+	color: var(--theme-red);
+	font-weight: bold;
+	padding: 0.1em 0;
+}
+
+.latest-products ul {
+	margin-top: 0.2em !important;
+}

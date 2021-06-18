@@ -1,0 +1,29 @@
+<section class="promo">
+    <div class="container">
+        <div class="row" style="border-bottom: 1px solid #ececec;margin-bottom: 2.2em;">
+            <div class="col-md-4">
+                <button class="btn-recent-products d-flex align-items-center">
+                    Recenly Viewed Products
+                </button>
+            </div>
+            <div class="offset-md-5 col-md-3 arrow-container">
+                <div class="left-arrow"></div>
+                <div class="right-arrow"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div 
+                class="col-md-4 top-category-container position-relative"
+                *ngFor="let tc of topCategories">
+                <div>
+                    <div style="position: absolute;left: 50%;top: 50%;transform: translateY(-50%);">
+                        <h5 style="color: var(--theme-black);">{{ tc.title }}</h5>
+                        <ul>
+                            <li *ngFor="let tag of tc.tags">{{ tag }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
