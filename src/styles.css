@@ -48,3 +48,9 @@ input:focus {
 	width: 9px;
 	height: 5px;
 }
+
+@media (max-width: 991px) {
+	.banner-right {
+		border-left: 0 !important;
+	}
+}

@@ -76,3 +76,43 @@
 .old {
     color: var(--theme-black);
 }
+
+.responsive-section {
+    top: 50%;
+}
+
+@media (max-width: 767px) {
+    .responsive-section {
+        top: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .responsive-section {
+        top: 20%;
+    }
+
+    .responsive-img {
+        width: 330px;
+    }
+}
+
+@media (max-width: 400px) {
+    .responsive-section {
+        top: 15%;
+    }
+
+    .responsive-img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .responsive-section {
+        top: 10%;
+    }
+
+    .responsive-img {
+        width: 250px;
+    }
+}

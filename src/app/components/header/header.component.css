@@ -65,3 +65,15 @@
 	transform: translate(-50%, -50%);
 	left: 50%;
 }
+
+@media (max-width: 1199px) {
+	.cart-items {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.logo-brand {
+		margin: 0 auto 1em auto;
+	}
+}

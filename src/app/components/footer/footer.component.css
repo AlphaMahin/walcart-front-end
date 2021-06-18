@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+	.payment {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+	.payment {
+        width: 250px;
+    }
+}

@@ -70,3 +70,15 @@ li.carret::after {
 	background: url("../../../assets/images/nav-right.png") no-repeat;
 	width: 176px;
 }
+
+@media (max-width: 400px) {
+	.right > nav > ul > li {
+		font-size: 0.6em !important;
+	}
+}
+
+@media (max-width: 500px) {
+	.right > nav > ul > li {
+		font-size: 0.7em;
+	}
+}
